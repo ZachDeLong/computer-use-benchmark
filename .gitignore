@@ -1,0 +1,10 @@
+node_modules
+dist
+runs/*.json
+runs/*.jsonl
+.env
+.env.local
+runs/*.log
+runs/*.png
+runs/site/
+scripts/replay-check.mjs

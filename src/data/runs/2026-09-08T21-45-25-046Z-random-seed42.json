@@ -1,0 +1,3896 @@
+{
+  "id": "2026-09-08T21-45-25-046Z-random-seed42",
+  "agent": "random",
+  "model": null,
+  "effort": null,
+  "createdAt": "2026-09-08T21:45:25.047Z",
+  "args": {
+    "agent": "random",
+    "seed": 42,
+    "tasks": 8,
+    "model": "claude-opus-5",
+    "maxSteps": 80,
+    "maxActions": 150,
+    "timeLimit": 600,
+    "headed": false,
+    "keepImages": 3,
+    "autoScreenshot": true,
+    "out": "runs/site"
+  },
+  "stopReason": "action_limit",
+  "stats": {
+    "modelMs": 22044,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 0,
+    "costUsd": null,
+    "steps": 150
+  },
+  "metrics": {
+    "seed": 42,
+    "mode": "agent",
+    "capmModel": 1.224823081110506,
+    "capmWall": 1.2182466272616521,
+    "credit": 0.44999999999999996,
+    "taskCount": 8,
+    "tasksCompleted": 0,
+    "successRate": 0,
+    "actionsTotal": 150,
+    "efficiency": null,
+    "errorRate": 0,
+    "classes": {
+      "progress": 1,
+      "neutral": 149,
+      "regress": 0,
+      "wasted": 0,
+      "recovery": 0
+    },
+    "distractionsShown": 0,
+    "distractionsRecovered": 0,
+    "meanActionsToRecover": null,
+    "taskTimesMs": [],
+    "medianTaskMs": null,
+    "wallMs": 22163,
+    "modelMs": 22044,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": null,
+    "steps": 150
+  },
+  "session": {
+    "seed": 42,
+    "mode": "agent",
+    "taskCount": 8,
+    "startedAt": 1788903902860,
+    "endedAt": null,
+    "tasks": [
+      {
+        "index": 0,
+        "id": "t0-settings",
+        "kind": "settings",
+        "instruction": "In Settings, turn off \"Dark mode\".",
+        "minActions": 3,
+        "actions": 150,
+        "completed": false,
+        "finalProgress": 0.15,
+        "startedAt": 1788903902860,
+        "endedAt": null,
+        "distractionsShown": 0
+      }
+    ],
+    "actions": [
+      {
+        "taskIndex": 0,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (573,681)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (223,421)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 159
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (799,692)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 296
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (319,705)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 436
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (392,157)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 573
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 6,
+        "kind": "left_click",
+        "detail": "left_click (878,488)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 712
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 7,
+        "kind": "left_click",
+        "detail": "left_click (602,669)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 852
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 8,
+        "kind": "left_click",
+        "detail": "left_click (758,25)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 992
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 9,
+        "kind": "left_click",
+        "detail": "left_click (79,148)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1130
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 10,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1270
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 11,
+        "kind": "left_click",
+        "detail": "left_click (221,674)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1454
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 12,
+        "kind": "left_click",
+        "detail": "left_click (1035,255)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1593
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 13,
+        "kind": "left_click",
+        "detail": "left_click (47,41)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1732
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 14,
+        "kind": "left_click",
+        "detail": "left_click (763,196)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 1870
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 15,
+        "kind": "left_click",
+        "detail": "left_click (268,242)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2010
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 16,
+        "kind": "left_click",
+        "detail": "left_click (1099,406)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2149
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 17,
+        "kind": "left_click",
+        "detail": "left_click (363,234)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2287
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 18,
+        "kind": "left_click",
+        "detail": "left_click (844,544)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2427
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 19,
+        "kind": "left_click",
+        "detail": "left_click (1187,70)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2567
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 20,
+        "kind": "key",
+        "detail": "key Escape",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2706
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 21,
+        "kind": "key",
+        "detail": "key Return",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2845
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 22,
+        "kind": "left_click",
+        "detail": "left_click (20,288)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2985
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 23,
+        "kind": "left_click",
+        "detail": "left_click (783,719)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3125
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 24,
+        "kind": "left_click",
+        "detail": "left_click (921,747)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3265
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 25,
+        "kind": "left_click",
+        "detail": "left_click (904,143)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3411
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 26,
+        "kind": "left_click",
+        "detail": "left_click (1052,96)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3544
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 27,
+        "kind": "key",
+        "detail": "key Escape",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3686
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 28,
+        "kind": "key",
+        "detail": "key Escape",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3824
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 29,
+        "kind": "left_click",
+        "detail": "left_click (431,476)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 3961
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 30,
+        "kind": "left_click",
+        "detail": "left_click (933,236)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4100
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 31,
+        "kind": "left_click",
+        "detail": "left_click (1079,556)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4240
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 32,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4378
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 33,
+        "kind": "left_click",
+        "detail": "left_click (697,236)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4516
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 34,
+        "kind": "left_click",
+        "detail": "left_click (891,250)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4656
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 35,
+        "kind": "type",
+        "detail": "type \"a\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4785
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 36,
+        "kind": "left_click",
+        "detail": "left_click (608,657)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 4920
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 37,
+        "kind": "left_click",
+        "detail": "left_click (1245,142)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5059
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 38,
+        "kind": "left_click",
+        "detail": "left_click (895,178)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5198
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 39,
+        "kind": "left_click",
+        "detail": "left_click (209,523)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5336
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 40,
+        "kind": "left_click",
+        "detail": "left_click (264,503)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5476
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 41,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5615
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 42,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 5862
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 43,
+        "kind": "left_click",
+        "detail": "left_click (1105,295)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6109
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 44,
+        "kind": "left_click",
+        "detail": "left_click (943,508)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6247
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 45,
+        "kind": "type",
+        "detail": "type \"a\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6386
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 46,
+        "kind": "left_click",
+        "detail": "left_click (773,391)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6525
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 47,
+        "kind": "left_click",
+        "detail": "left_click (60,564)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6664
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 48,
+        "kind": "left_click",
+        "detail": "left_click (373,220)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6804
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 49,
+        "kind": "left_click",
+        "detail": "left_click (37,176)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 6943
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 50,
+        "kind": "key",
+        "detail": "key Escape",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7082
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 51,
+        "kind": "key",
+        "detail": "key Return",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7221
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 52,
+        "kind": "left_click",
+        "detail": "left_click (718,234)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7360
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 53,
+        "kind": "left_click",
+        "detail": "left_click (556,334)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7500
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 54,
+        "kind": "left_click",
+        "detail": "left_click (510,268)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7639
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 55,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7777
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 56,
+        "kind": "left_click",
+        "detail": "left_click (781,437)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8026
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 57,
+        "kind": "left_click",
+        "detail": "left_click (301,260)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8165
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 58,
+        "kind": "left_click",
+        "detail": "left_click (410,535)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8304
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 59,
+        "kind": "left_click",
+        "detail": "left_click (216,555)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8443
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 60,
+        "kind": "left_click",
+        "detail": "left_click (159,251)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8583
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 61,
+        "kind": "left_click",
+        "detail": "left_click (739,166)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8721
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 62,
+        "kind": "left_click",
+        "detail": "left_click (486,569)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 8861
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 63,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9000
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 64,
+        "kind": "left_click",
+        "detail": "left_click (197,694)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9138
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 65,
+        "kind": "left_click",
+        "detail": "left_click (1075,715)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9278
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 66,
+        "kind": "left_click",
+        "detail": "left_click (187,494)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9417
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 67,
+        "kind": "type",
+        "detail": "type \"hello\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9557
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 68,
+        "kind": "left_click",
+        "detail": "left_click (698,787)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9759
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 69,
+        "kind": "left_click",
+        "detail": "left_click (1100,674)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 9897
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 70,
+        "kind": "left_click",
+        "detail": "left_click (68,55)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10037
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 71,
+        "kind": "left_click",
+        "detail": "left_click (648,541)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10176
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 72,
+        "kind": "type",
+        "detail": "type \"a\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10317
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 73,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10456
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 74,
+        "kind": "type",
+        "detail": "type \"a\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10643
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 75,
+        "kind": "left_click",
+        "detail": "left_click (449,357)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10782
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 76,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 10921
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 77,
+        "kind": "left_click",
+        "detail": "left_click (1200,500)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11107
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 78,
+        "kind": "left_click",
+        "detail": "left_click (1081,121)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11248
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 79,
+        "kind": "left_click",
+        "detail": "left_click (25,68)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11387
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 80,
+        "kind": "left_click",
+        "detail": "left_click (929,764)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11526
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 81,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11666
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 82,
+        "kind": "left_click",
+        "detail": "left_click (185,218)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11912
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 83,
+        "kind": "left_click",
+        "detail": "left_click (61,232)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12051
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 84,
+        "kind": "left_click",
+        "detail": "left_click (728,573)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12190
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 85,
+        "kind": "type",
+        "detail": "type \"a\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12329
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 86,
+        "kind": "left_click",
+        "detail": "left_click (852,414)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12469
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 87,
+        "kind": "left_click",
+        "detail": "left_click (600,367)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12608
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 88,
+        "kind": "left_click",
+        "detail": "left_click (424,246)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12747
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 89,
+        "kind": "left_click",
+        "detail": "left_click (645,213)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 12886
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 90,
+        "kind": "left_click",
+        "detail": "left_click (701,517)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13025
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 91,
+        "kind": "left_click",
+        "detail": "left_click (172,3)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13163
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 92,
+        "kind": "left_click",
+        "detail": "left_click (1207,55)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13302
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 93,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13441
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 94,
+        "kind": "left_click",
+        "detail": "left_click (126,657)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13689
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 95,
+        "kind": "left_click",
+        "detail": "left_click (474,183)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13827
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 96,
+        "kind": "left_click",
+        "detail": "left_click (721,75)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 13967
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 97,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14106
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 98,
+        "kind": "left_click",
+        "detail": "left_click (1019,439)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14245
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 99,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14384
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 100,
+        "kind": "left_click",
+        "detail": "left_click (99,76)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14570
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 101,
+        "kind": "left_click",
+        "detail": "left_click (336,537)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14709
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 102,
+        "kind": "left_click",
+        "detail": "left_click (718,781)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14847
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 103,
+        "kind": "left_click",
+        "detail": "left_click (507,270)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 14988
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 104,
+        "kind": "left_click",
+        "detail": "left_click (1066,429)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15128
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 105,
+        "kind": "left_click",
+        "detail": "left_click (1208,761)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15267
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 106,
+        "kind": "left_click",
+        "detail": "left_click (663,688)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15406
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 107,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15545
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 108,
+        "kind": "left_click",
+        "detail": "left_click (1036,249)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15684
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 109,
+        "kind": "left_click",
+        "detail": "left_click (960,439)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15823
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 110,
+        "kind": "left_click",
+        "detail": "left_click (709,436)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15963
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 111,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16102
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 112,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16242
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 113,
+        "kind": "left_click",
+        "detail": "left_click (854,691)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16489
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 114,
+        "kind": "left_click",
+        "detail": "left_click (1123,253)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16628
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 115,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16768
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 116,
+        "kind": "left_click",
+        "detail": "left_click (682,669)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 16999
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 117,
+        "kind": "left_click",
+        "detail": "left_click (1110,553)",
+        "progressBefore": 0,
+        "progressAfter": 0,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17139
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 118,
+        "kind": "left_click",
+        "detail": "left_click (367,769)",
+        "progressBefore": 0,
+        "progressAfter": 0.15,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17277
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 119,
+        "kind": "left_click",
+        "detail": "left_click (351,504)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17418
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 120,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17556
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 121,
+        "kind": "left_click",
+        "detail": "left_click (237,677)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17741
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 122,
+        "kind": "key",
+        "detail": "key Escape",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 17883
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 123,
+        "kind": "left_click",
+        "detail": "left_click (92,399)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18020
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 124,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18158
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 125,
+        "kind": "left_click",
+        "detail": "left_click (566,492)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18345
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 126,
+        "kind": "left_click",
+        "detail": "left_click (662,34)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18483
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 127,
+        "kind": "left_click",
+        "detail": "left_click (124,96)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18623
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 128,
+        "kind": "left_click",
+        "detail": "left_click (1060,670)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18762
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 129,
+        "kind": "left_click",
+        "detail": "left_click (108,26)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18899
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 130,
+        "kind": "left_click",
+        "detail": "left_click (896,215)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19038
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 131,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19178
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 132,
+        "kind": "key",
+        "detail": "key Tab",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19362
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 133,
+        "kind": "left_click",
+        "detail": "left_click (127,501)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19502
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 134,
+        "kind": "left_click",
+        "detail": "left_click (614,222)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19642
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 135,
+        "kind": "left_click",
+        "detail": "left_click (922,415)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19782
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 136,
+        "kind": "left_click",
+        "detail": "left_click (757,87)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 19920
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 137,
+        "kind": "type",
+        "detail": "type \"test\"",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20059
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 138,
+        "kind": "key",
+        "detail": "key Return",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20243
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 139,
+        "kind": "left_click",
+        "detail": "left_click (42,272)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20385
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 140,
+        "kind": "left_click",
+        "detail": "left_click (294,792)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20527
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 141,
+        "kind": "left_click",
+        "detail": "left_click (1075,273)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20680
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 142,
+        "kind": "left_click",
+        "detail": "left_click (41,587)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20818
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 143,
+        "kind": "type",
+        "detail": "type \"555-0100\"",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 20956
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 144,
+        "kind": "left_click",
+        "detail": "left_click (1005,404)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21203
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 145,
+        "kind": "left_click",
+        "detail": "left_click (105,618)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21341
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 146,
+        "kind": "left_click",
+        "detail": "left_click (1114,633)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21479
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 147,
+        "kind": "left_click",
+        "detail": "left_click (1218,140)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21619
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 148,
+        "kind": "left_click",
+        "detail": "left_click (706,539)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21758
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 149,
+        "kind": "left_click",
+        "detail": "left_click (985,193)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 21897
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 150,
+        "kind": "left_click",
+        "detail": "left_click (844,482)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 22039
+      }
+    ],
+    "distractions": [
+      {
+        "taskIndex": 4,
+        "afterAction": 3,
+        "id": "update",
+        "shown": false
+      },
+      {
+        "taskIndex": 7,
+        "afterAction": 2,
+        "id": "sync",
+        "shown": false
+      }
+    ]
+  },
+  "trace": {
+    "steps": [],
+    "actions": [
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            573,
+            681
+          ]
+        },
+        "t": 3,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            223,
+            421
+          ]
+        },
+        "t": 146,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            799,
+            692
+          ]
+        },
+        "t": 284,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            319,
+            705
+          ]
+        },
+        "t": 424,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            392,
+            157
+          ]
+        },
+        "t": 562,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            878,
+            488
+          ]
+        },
+        "t": 701,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            602,
+            669
+          ]
+        },
+        "t": 840,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            758,
+            25
+          ]
+        },
+        "t": 981,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            79,
+            148
+          ]
+        },
+        "t": 1118,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 1259,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            221,
+            674
+          ]
+        },
+        "t": 1443,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1035,
+            255
+          ]
+        },
+        "t": 1582,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            47,
+            41
+          ]
+        },
+        "t": 1721,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            763,
+            196
+          ]
+        },
+        "t": 1859,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            268,
+            242
+          ]
+        },
+        "t": 1999,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1099,
+            406
+          ]
+        },
+        "t": 2137,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            363,
+            234
+          ]
+        },
+        "t": 2276,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            844,
+            544
+          ]
+        },
+        "t": 2415,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1187,
+            70
+          ]
+        },
+        "t": 2555,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Escape"
+        },
+        "t": 2694,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Return"
+        },
+        "t": 2834,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            20,
+            288
+          ]
+        },
+        "t": 2974,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            783,
+            719
+          ]
+        },
+        "t": 3114,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            921,
+            747
+          ]
+        },
+        "t": 3254,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            904,
+            143
+          ]
+        },
+        "t": 3399,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1052,
+            96
+          ]
+        },
+        "t": 3533,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Escape"
+        },
+        "t": 3674,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Escape"
+        },
+        "t": 3812,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            431,
+            476
+          ]
+        },
+        "t": 3950,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            933,
+            236
+          ]
+        },
+        "t": 4089,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1079,
+            556
+          ]
+        },
+        "t": 4228,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 4367,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            697,
+            236
+          ]
+        },
+        "t": 4505,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            891,
+            250
+          ]
+        },
+        "t": 4645,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "a"
+        },
+        "t": 4774,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            608,
+            657
+          ]
+        },
+        "t": 4908,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1245,
+            142
+          ]
+        },
+        "t": 5048,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            895,
+            178
+          ]
+        },
+        "t": 5186,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            209,
+            523
+          ]
+        },
+        "t": 5325,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            264,
+            503
+          ]
+        },
+        "t": 5465,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 5604,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 5851,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1105,
+            295
+          ]
+        },
+        "t": 6098,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            943,
+            508
+          ]
+        },
+        "t": 6236,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "a"
+        },
+        "t": 6375,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            773,
+            391
+          ]
+        },
+        "t": 6514,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            60,
+            564
+          ]
+        },
+        "t": 6653,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            373,
+            220
+          ]
+        },
+        "t": 6792,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            37,
+            176
+          ]
+        },
+        "t": 6932,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Escape"
+        },
+        "t": 7071,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Return"
+        },
+        "t": 7210,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            718,
+            234
+          ]
+        },
+        "t": 7349,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            556,
+            334
+          ]
+        },
+        "t": 7489,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            510,
+            268
+          ]
+        },
+        "t": 7628,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 7766,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            781,
+            437
+          ]
+        },
+        "t": 8015,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            301,
+            260
+          ]
+        },
+        "t": 8154,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            410,
+            535
+          ]
+        },
+        "t": 8293,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            216,
+            555
+          ]
+        },
+        "t": 8432,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            159,
+            251
+          ]
+        },
+        "t": 8571,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            739,
+            166
+          ]
+        },
+        "t": 8710,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            486,
+            569
+          ]
+        },
+        "t": 8849,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 8989,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            197,
+            694
+          ]
+        },
+        "t": 9127,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1075,
+            715
+          ]
+        },
+        "t": 9267,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            187,
+            494
+          ]
+        },
+        "t": 9406,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "hello"
+        },
+        "t": 9546,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            698,
+            787
+          ]
+        },
+        "t": 9748,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1100,
+            674
+          ]
+        },
+        "t": 9886,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            68,
+            55
+          ]
+        },
+        "t": 10026,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            648,
+            541
+          ]
+        },
+        "t": 10165,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "a"
+        },
+        "t": 10306,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 10444,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "a"
+        },
+        "t": 10631,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            449,
+            357
+          ]
+        },
+        "t": 10771,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 10910,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1200,
+            500
+          ]
+        },
+        "t": 11096,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1081,
+            121
+          ]
+        },
+        "t": 11236,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            25,
+            68
+          ]
+        },
+        "t": 11376,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            929,
+            764
+          ]
+        },
+        "t": 11515,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 11655,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            185,
+            218
+          ]
+        },
+        "t": 11901,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            61,
+            232
+          ]
+        },
+        "t": 12040,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            728,
+            573
+          ]
+        },
+        "t": 12179,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "a"
+        },
+        "t": 12317,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            852,
+            414
+          ]
+        },
+        "t": 12458,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            600,
+            367
+          ]
+        },
+        "t": 12596,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            424,
+            246
+          ]
+        },
+        "t": 12736,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            645,
+            213
+          ]
+        },
+        "t": 12875,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            701,
+            517
+          ]
+        },
+        "t": 13014,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            172,
+            3
+          ]
+        },
+        "t": 13152,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1207,
+            55
+          ]
+        },
+        "t": 13291,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 13430,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            126,
+            657
+          ]
+        },
+        "t": 13677,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            474,
+            183
+          ]
+        },
+        "t": 13816,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            721,
+            75
+          ]
+        },
+        "t": 13955,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 14095,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1019,
+            439
+          ]
+        },
+        "t": 14234,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 14373,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            99,
+            76
+          ]
+        },
+        "t": 14559,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            336,
+            537
+          ]
+        },
+        "t": 14698,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            718,
+            781
+          ]
+        },
+        "t": 14836,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            507,
+            270
+          ]
+        },
+        "t": 14977,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1066,
+            429
+          ]
+        },
+        "t": 15117,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1208,
+            761
+          ]
+        },
+        "t": 15256,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            663,
+            688
+          ]
+        },
+        "t": 15395,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 15534,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1036,
+            249
+          ]
+        },
+        "t": 15673,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            960,
+            439
+          ]
+        },
+        "t": 15812,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            709,
+            436
+          ]
+        },
+        "t": 15952,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 16091,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 16231,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            854,
+            691
+          ]
+        },
+        "t": 16478,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1123,
+            253
+          ]
+        },
+        "t": 16616,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 16756,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            682,
+            669
+          ]
+        },
+        "t": 16988,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1110,
+            553
+          ]
+        },
+        "t": 17127,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            367,
+            769
+          ]
+        },
+        "t": 17266,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            351,
+            504
+          ]
+        },
+        "t": 17406,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 17545,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            237,
+            677
+          ]
+        },
+        "t": 17730,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Escape"
+        },
+        "t": 17871,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            92,
+            399
+          ]
+        },
+        "t": 18009,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 18147,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            566,
+            492
+          ]
+        },
+        "t": 18333,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            662,
+            34
+          ]
+        },
+        "t": 18472,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            124,
+            96
+          ]
+        },
+        "t": 18612,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1060,
+            670
+          ]
+        },
+        "t": 18751,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            108,
+            26
+          ]
+        },
+        "t": 18888,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            896,
+            215
+          ]
+        },
+        "t": 19026,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 19166,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Tab"
+        },
+        "t": 19351,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            127,
+            501
+          ]
+        },
+        "t": 19491,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            614,
+            222
+          ]
+        },
+        "t": 19630,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            922,
+            415
+          ]
+        },
+        "t": 19771,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            757,
+            87
+          ]
+        },
+        "t": 19909,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "test"
+        },
+        "t": 20048,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "key",
+        "input": {
+          "text": "Return"
+        },
+        "t": 20232,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            42,
+            272
+          ]
+        },
+        "t": 20373,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            294,
+            792
+          ]
+        },
+        "t": 20514,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1075,
+            273
+          ]
+        },
+        "t": 20668,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            41,
+            587
+          ]
+        },
+        "t": 20807,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "type",
+        "input": {
+          "text": "555-0100"
+        },
+        "t": 20945,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1005,
+            404
+          ]
+        },
+        "t": 21192,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            105,
+            618
+          ]
+        },
+        "t": 21330,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1114,
+            633
+          ]
+        },
+        "t": 21468,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1218,
+            140
+          ]
+        },
+        "t": 21608,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            706,
+            539
+          ]
+        },
+        "t": 21746,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            985,
+            193
+          ]
+        },
+        "t": 21886,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 0,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            844,
+            482
+          ]
+        },
+        "t": 22027,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      }
+    ]
+  }
+}

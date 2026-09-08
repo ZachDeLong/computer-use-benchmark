@@ -1,0 +1,2051 @@
+{
+  "id": "2026-09-08T21-42-10-225Z-claude_claude-opus-5-seed42",
+  "agent": "claude:claude-opus-5",
+  "model": "claude-opus-5",
+  "effort": null,
+  "createdAt": "2026-09-08T21:42:10.225Z",
+  "args": {
+    "agent": "claude",
+    "seed": 42,
+    "tasks": 8,
+    "model": "claude-opus-5",
+    "maxSteps": 80,
+    "maxActions": 150,
+    "timeLimit": 600,
+    "headed": false,
+    "keepImages": 3,
+    "autoScreenshot": true,
+    "out": "runs/site"
+  },
+  "stopReason": "complete",
+  "stats": {
+    "modelMs": 89272,
+    "inputTokens": 52,
+    "outputTokens": 3933,
+    "cacheReadTokens": 306460,
+    "cacheWriteTokens": 76490,
+    "costUsd": 0.7298775,
+    "steps": 26,
+    "model": "claude-opus-5"
+  },
+  "metrics": {
+    "seed": 42,
+    "mode": "agent",
+    "capmModel": 25.53992293216238,
+    "capmWall": 15.55347872652482,
+    "credit": 38,
+    "taskCount": 8,
+    "tasksCompleted": 8,
+    "successRate": 1,
+    "actionsTotal": 45,
+    "efficiency": 0.8372093023255814,
+    "errorRate": 0.044444444444444446,
+    "classes": {
+      "progress": 24,
+      "neutral": 17,
+      "regress": 0,
+      "wasted": 2,
+      "recovery": 2
+    },
+    "distractionsShown": 2,
+    "distractionsRecovered": 2,
+    "meanActionsToRecover": 2,
+    "taskTimesMs": [
+      23187,
+      17467,
+      9886,
+      23013,
+      28121,
+      6611,
+      12473,
+      25810
+    ],
+    "medianTaskMs": 23013,
+    "wallMs": 146591,
+    "modelMs": 89272,
+    "inputTokens": 383002,
+    "outputTokens": 3933,
+    "costUsd": 0.7298775,
+    "steps": 26
+  },
+  "session": {
+    "seed": 42,
+    "mode": "agent",
+    "taskCount": 8,
+    "startedAt": 1788903583614,
+    "endedAt": 1788903730182,
+    "tasks": [
+      {
+        "index": 0,
+        "id": "t0-settings",
+        "kind": "settings",
+        "instruction": "In Settings, turn off \"Dark mode\".",
+        "minActions": 3,
+        "actions": 6,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903583614,
+        "endedAt": 1788903606801,
+        "distractionsShown": 0
+      },
+      {
+        "index": 1,
+        "id": "t1-form",
+        "kind": "form",
+        "instruction": "In Contacts, add a new contact. Name: Aisha Delgado. Email: adelgado@corp.example. Phone: 555-0105.",
+        "minActions": 9,
+        "actions": 9,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903606801,
+        "endedAt": 1788903624268,
+        "distractionsShown": 0
+      },
+      {
+        "index": 2,
+        "id": "t2-sort",
+        "kind": "sort",
+        "instruction": "In Files, sort the list by Size, smallest first.",
+        "minActions": 2,
+        "actions": 2,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903624268,
+        "endedAt": 1788903634154,
+        "distractionsShown": 0
+      },
+      {
+        "index": 3,
+        "id": "t3-transfer",
+        "kind": "transfer",
+        "instruction": "Copy Aisha Bergstrom's phone number from Contacts and add it to the note titled \"Ideas\" in Notes.",
+        "minActions": 6,
+        "actions": 7,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903634154,
+        "endedAt": 1788903657167,
+        "distractionsShown": 0
+      },
+      {
+        "index": 4,
+        "id": "t4-move",
+        "kind": "move",
+        "instruction": "In Files, move all .xlsx files into the Projects folder.",
+        "minActions": 5,
+        "actions": 7,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903657167,
+        "endedAt": 1788903685288,
+        "distractionsShown": 1
+      },
+      {
+        "index": 5,
+        "id": "t5-sort",
+        "kind": "sort",
+        "instruction": "In Files, sort the list by Size, largest first.",
+        "minActions": 1,
+        "actions": 1,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903685288,
+        "endedAt": 1788903691899,
+        "distractionsShown": 0
+      },
+      {
+        "index": 6,
+        "id": "t6-move",
+        "kind": "move",
+        "instruction": "In Files, move all .jpg files into the Archive folder.",
+        "minActions": 4,
+        "actions": 4,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903691899,
+        "endedAt": 1788903704372,
+        "distractionsShown": 0
+      },
+      {
+        "index": 7,
+        "id": "t7-transfer",
+        "kind": "transfer",
+        "instruction": "Copy Ingrid Kowalski's phone number from Contacts and add it to the note titled \"Reading list\" in Notes.",
+        "minActions": 6,
+        "actions": 9,
+        "completed": true,
+        "finalProgress": 1,
+        "startedAt": 1788903704372,
+        "endedAt": 1788903730182,
+        "distractionsShown": 1
+      }
+    ],
+    "actions": [
+      {
+        "taskIndex": 0,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (366,777)",
+        "progressBefore": 0,
+        "progressAfter": 0.15,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 2955
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (385,339)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 7759
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (378,378)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 11829
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (369,417)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.15,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 15322
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (388,456)",
+        "progressBefore": 0.15,
+        "progressAfter": 0.4,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 18914
+      },
+      {
+        "taskIndex": 0,
+        "actionIndex": 6,
+        "kind": "left_click",
+        "detail": "left_click (798,347)",
+        "progressBefore": 0.4,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 23048
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (66,777)",
+        "progressBefore": 0,
+        "progressAfter": 0.1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 28216
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (814,248)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.2,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 33113
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (1081,346)",
+        "progressBefore": 0.2,
+        "progressAfter": 0.2,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 39080
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 4,
+        "kind": "type",
+        "detail": "type \"Aisha Delgado\"",
+        "progressBefore": 0.2,
+        "progressAfter": 0.35,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 39222
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (1081,403)",
+        "progressBefore": 0.35,
+        "progressAfter": 0.35,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 39545
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 6,
+        "kind": "type",
+        "detail": "type \"555-0105\"",
+        "progressBefore": 0.35,
+        "progressAfter": 0.5,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 39683
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 7,
+        "kind": "left_click",
+        "detail": "left_click (1081,460)",
+        "progressBefore": 0.5,
+        "progressAfter": 0.5,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 39930
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 8,
+        "kind": "type",
+        "detail": "type \"adelgado@corp.example\"",
+        "progressBefore": 0.5,
+        "progressAfter": 0.65,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 40070
+      },
+      {
+        "taskIndex": 1,
+        "actionIndex": 9,
+        "kind": "left_click",
+        "detail": "left_click (981,497)",
+        "progressBefore": 0.65,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 40517
+      },
+      {
+        "taskIndex": 2,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (266,777)",
+        "progressBefore": 0,
+        "progressAfter": 0.2,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 45584
+      },
+      {
+        "taskIndex": 2,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (635,409)",
+        "progressBefore": 0.2,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 50398
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (66,777)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.1,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 56931
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (869,489)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.30000000000000004,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 57077
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (173,777)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 0.4,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 62395
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (298,460)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.6000000000000001,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 67335
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (633,368)",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 0.6000000000000001,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 73019
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 6,
+        "kind": "key",
+        "detail": "key ctrl+End",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 0.6000000000000001,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 73152
+      },
+      {
+        "taskIndex": 3,
+        "actionIndex": 7,
+        "kind": "type",
+        "detail": "type \"\n555-0172\"",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 73292
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (266,777)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.1,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 81206
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (270,439)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.2,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 87909
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (270,684)",
+        "progressBefore": 0.2,
+        "progressAfter": 0.30000000000000004,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 88053
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (301,367)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 0.30000000000000004,
+        "classification": "wasted",
+        "modalBefore": true,
+        "modalAfter": true,
+        "t": 88198
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (642,445)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 0.30000000000000004,
+        "classification": "recovery",
+        "modalBefore": true,
+        "modalAfter": false,
+        "t": 94801
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 6,
+        "kind": "left_click",
+        "detail": "left_click (301,367)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 0.30000000000000004,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 95939
+      },
+      {
+        "taskIndex": 4,
+        "actionIndex": 7,
+        "kind": "left_click",
+        "detail": "left_click (301,408)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 101537
+      },
+      {
+        "taskIndex": 5,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (635,409)",
+        "progressBefore": 0.2,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 108154
+      },
+      {
+        "taskIndex": 6,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (270,439)",
+        "progressBefore": 0.1,
+        "progressAfter": 0.2,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 115339
+      },
+      {
+        "taskIndex": 6,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (270,579)",
+        "progressBefore": 0.2,
+        "progressAfter": 0.30000000000000004,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 115479
+      },
+      {
+        "taskIndex": 6,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (301,367)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 0.30000000000000004,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 115619
+      },
+      {
+        "taskIndex": 6,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (299,444)",
+        "progressBefore": 0.30000000000000004,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 120629
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 1,
+        "kind": "left_click",
+        "detail": "left_click (66,777)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.4,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 127761
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 2,
+        "kind": "left_click",
+        "detail": "left_click (869,372)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.4,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 127895
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 3,
+        "kind": "left_click",
+        "detail": "left_click (173,777)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.4,
+        "classification": "wasted",
+        "modalBefore": true,
+        "modalAfter": true,
+        "t": 133382
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 4,
+        "kind": "left_click",
+        "detail": "left_click (801,445)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.4,
+        "classification": "recovery",
+        "modalBefore": true,
+        "modalAfter": false,
+        "t": 138476
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 5,
+        "kind": "left_click",
+        "detail": "left_click (173,777)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.4,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 139636
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 6,
+        "kind": "left_click",
+        "detail": "left_click (319,382)",
+        "progressBefore": 0.4,
+        "progressAfter": 0.6000000000000001,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 144895
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 7,
+        "kind": "left_click",
+        "detail": "left_click (583,400)",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 0.6000000000000001,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 146030
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 8,
+        "kind": "key",
+        "detail": "key ctrl+End",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 0.6000000000000001,
+        "classification": "neutral",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 146170
+      },
+      {
+        "taskIndex": 7,
+        "actionIndex": 9,
+        "kind": "type",
+        "detail": "type \"\n555-0108\"",
+        "progressBefore": 0.6000000000000001,
+        "progressAfter": 1,
+        "classification": "progress",
+        "modalBefore": false,
+        "modalAfter": false,
+        "t": 146310
+      }
+    ],
+    "distractions": [
+      {
+        "taskIndex": 4,
+        "afterAction": 3,
+        "id": "update",
+        "shown": true
+      },
+      {
+        "taskIndex": 7,
+        "afterAction": 2,
+        "id": "sync",
+        "shown": true
+      }
+    ]
+  },
+  "trace": {
+    "steps": [
+      {
+        "index": 1,
+        "t": 106,
+        "modelMs": 2835,
+        "text": "I'll start by opening the Settings app from the taskbar."
+      },
+      {
+        "index": 2,
+        "t": 5180,
+        "modelMs": 2566,
+        "text": "Dark mode is likely under Appearance, so I'll check there."
+      },
+      {
+        "index": 3,
+        "t": 8976,
+        "modelMs": 2840,
+        "text": "Dark mode isn't under Appearance. Let me check the other tabs."
+      },
+      {
+        "index": 4,
+        "t": 13044,
+        "modelMs": 2266,
+        "text": ""
+      },
+      {
+        "index": 5,
+        "t": 16532,
+        "modelMs": 2370,
+        "text": ""
+      },
+      {
+        "index": 6,
+        "t": 20126,
+        "modelMs": 2910,
+        "text": "Found it under Notifications. Turning it off now."
+      },
+      {
+        "index": 7,
+        "t": 25285,
+        "modelMs": 2918,
+        "text": "Task 1 done. Now opening Contacts for task 2."
+      },
+      {
+        "index": 8,
+        "t": 30414,
+        "modelMs": 2687,
+        "text": ""
+      },
+      {
+        "index": 9,
+        "t": 35331,
+        "modelMs": 3736,
+        "text": ""
+      },
+      {
+        "index": 10,
+        "t": 42717,
+        "modelMs": 2855,
+        "text": "Contact saved. Now on to Files for task 3."
+      },
+      {
+        "index": 11,
+        "t": 47795,
+        "modelMs": 2589,
+        "text": "I'll click the Size column header to sort ascending."
+      },
+      {
+        "index": 12,
+        "t": 52620,
+        "modelMs": 4298,
+        "text": "Sorted smallest first. Now I need Aisha Bergstrom's phone number — note there are two contacts named Aisha, so I'll select the right one."
+      },
+      {
+        "index": 13,
+        "t": 59275,
+        "modelMs": 3107,
+        "text": "Phone is 555-0172. Now I'll open Notes to find the \"Ideas\" note."
+      },
+      {
+        "index": 14,
+        "t": 64595,
+        "modelMs": 2726,
+        "text": ""
+      },
+      {
+        "index": 15,
+        "t": 69543,
+        "modelMs": 3463,
+        "text": "I'll append the phone number to the end of the note's existing text."
+      },
+      {
+        "index": 16,
+        "t": 75628,
+        "modelMs": 5565,
+        "text": "Task 4 done. Now opening Files to move the .xlsx files."
+      },
+      {
+        "index": 17,
+        "t": 83409,
+        "modelMs": 4487,
+        "text": ""
+      },
+      {
+        "index": 18,
+        "t": 90393,
+        "modelMs": 4395,
+        "text": "A software update pop-up appeared; I'll dismiss it with \"Remind me later\" rather than installing, then continue the move."
+      },
+      {
+        "index": 19,
+        "t": 98158,
+        "modelMs": 3365,
+        "text": ""
+      },
+      {
+        "index": 20,
+        "t": 103741,
+        "modelMs": 4400,
+        "text": "All .xlsx files are now in Projects. Now I'll toggle the Size sort to descending."
+      },
+      {
+        "index": 21,
+        "t": 110361,
+        "modelMs": 4965,
+        "text": "Now selecting the two .jpg files (not budget.png) and moving them to Archive."
+      },
+      {
+        "index": 22,
+        "t": 116841,
+        "modelMs": 3774,
+        "text": ""
+      },
+      {
+        "index": 23,
+        "t": 122830,
+        "modelMs": 4918,
+        "text": "Last task. I'll get Ingrid Kowalski's phone number from Contacts."
+      },
+      {
+        "index": 24,
+        "t": 130065,
+        "modelMs": 3303,
+        "text": "Phone is 555-0108. Now opening Notes to find \"Reading list\"."
+      },
+      {
+        "index": 25,
+        "t": 135571,
+        "modelMs": 2891,
+        "text": ""
+      },
+      {
+        "index": 26,
+        "t": 141839,
+        "modelMs": 3043,
+        "text": ""
+      }
+    ],
+    "actions": [
+      {
+        "step": 1,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            366,
+            777
+          ]
+        },
+        "t": 2943,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 0
+      },
+      {
+        "step": 1,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 3093,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 1,
+        "name": "screenshot",
+        "input": {},
+        "t": 5100,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 2,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            385,
+            339
+          ]
+        },
+        "t": 7747,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 2,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 7878,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 2,
+        "name": "screenshot",
+        "input": {},
+        "t": 8896,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 3,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            378,
+            378
+          ]
+        },
+        "t": 11817,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 3,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 11958,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 3,
+        "name": "screenshot",
+        "input": {},
+        "t": 12963,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 4,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            369,
+            417
+          ]
+        },
+        "t": 15311,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 0
+      },
+      {
+        "step": 4,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 15451,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 4,
+        "name": "screenshot",
+        "input": {},
+        "t": 16455,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 5,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            388,
+            456
+          ]
+        },
+        "t": 18903,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 0
+      },
+      {
+        "step": 5,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 19039,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 5,
+        "name": "screenshot",
+        "input": {},
+        "t": 20043,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 0
+      },
+      {
+        "step": 6,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            798,
+            347
+          ]
+        },
+        "t": 23037,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 0
+      },
+      {
+        "step": 6,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 23181,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 6,
+        "name": "screenshot",
+        "input": {},
+        "t": 25199,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 7,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            66,
+            777
+          ]
+        },
+        "t": 28204,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 7,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 28337,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 7,
+        "name": "screenshot",
+        "input": {},
+        "t": 30343,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 8,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            814,
+            248
+          ]
+        },
+        "t": 33102,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 8,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 33247,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 8,
+        "name": "screenshot",
+        "input": {},
+        "t": 35253,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1081,
+            346
+          ]
+        },
+        "t": 39068,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "type",
+        "input": {
+          "text": "Aisha Delgado"
+        },
+        "t": 39210,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1081,
+            403
+          ]
+        },
+        "t": 39533,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "type",
+        "input": {
+          "text": "555-0105"
+        },
+        "t": 39672,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            1081,
+            460
+          ]
+        },
+        "t": 39919,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "type",
+        "input": {
+          "text": "adelgado@corp.example"
+        },
+        "t": 40059,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            981,
+            497
+          ]
+        },
+        "t": 40506,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 1
+      },
+      {
+        "step": 9,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 40647,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 2
+      },
+      {
+        "step": 9,
+        "name": "screenshot",
+        "input": {},
+        "t": 42652,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 2
+      },
+      {
+        "step": 10,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            266,
+            777
+          ]
+        },
+        "t": 45573,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 2
+      },
+      {
+        "step": 10,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 45717,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 2
+      },
+      {
+        "step": 10,
+        "name": "screenshot",
+        "input": {},
+        "t": 47724,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 2
+      },
+      {
+        "step": 11,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            635,
+            409
+          ]
+        },
+        "t": 50386,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 2
+      },
+      {
+        "step": 11,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 50534,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 11,
+        "name": "screenshot",
+        "input": {},
+        "t": 52552,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 12,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            66,
+            777
+          ]
+        },
+        "t": 56920,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 3
+      },
+      {
+        "step": 12,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            869,
+            489
+          ]
+        },
+        "t": 57066,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 3
+      },
+      {
+        "step": 12,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 57205,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 12,
+        "name": "screenshot",
+        "input": {},
+        "t": 59213,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 13,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            173,
+            777
+          ]
+        },
+        "t": 62383,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 3
+      },
+      {
+        "step": 13,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 62521,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 13,
+        "name": "screenshot",
+        "input": {},
+        "t": 64526,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 14,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            298,
+            460
+          ]
+        },
+        "t": 67323,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 3
+      },
+      {
+        "step": 14,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 67465,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 14,
+        "name": "screenshot",
+        "input": {},
+        "t": 69472,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 3
+      },
+      {
+        "step": 15,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            633,
+            368
+          ]
+        },
+        "t": 73007,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 3
+      },
+      {
+        "step": 15,
+        "name": "key",
+        "input": {
+          "text": "ctrl+End"
+        },
+        "t": 73141,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 3
+      },
+      {
+        "step": 15,
+        "name": "type",
+        "input": {
+          "text": "\n555-0172"
+        },
+        "t": 73281,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 3
+      },
+      {
+        "step": 15,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 73545,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 15,
+        "name": "screenshot",
+        "input": {},
+        "t": 75557,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 16,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            266,
+            777
+          ]
+        },
+        "t": 81194,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 4
+      },
+      {
+        "step": 16,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 81328,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 16,
+        "name": "screenshot",
+        "input": {},
+        "t": 83337,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 17,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            270,
+            439
+          ]
+        },
+        "t": 87897,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 4
+      },
+      {
+        "step": 17,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            270,
+            684
+          ]
+        },
+        "t": 88041,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 4
+      },
+      {
+        "step": 17,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            301,
+            367
+          ]
+        },
+        "t": 88186,
+        "counted": true,
+        "classification": "wasted",
+        "taskIndex": 4
+      },
+      {
+        "step": 17,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 88320,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 17,
+        "name": "screenshot",
+        "input": {},
+        "t": 90327,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 18,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            642,
+            445
+          ]
+        },
+        "t": 94789,
+        "counted": true,
+        "classification": "recovery",
+        "taskIndex": 4
+      },
+      {
+        "step": 18,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 94920,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 18,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            301,
+            367
+          ]
+        },
+        "t": 95927,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 4
+      },
+      {
+        "step": 18,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 96067,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 18,
+        "name": "screenshot",
+        "input": {},
+        "t": 98080,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 4
+      },
+      {
+        "step": 19,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            301,
+            408
+          ]
+        },
+        "t": 101525,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 4
+      },
+      {
+        "step": 19,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 101667,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 5
+      },
+      {
+        "step": 19,
+        "name": "screenshot",
+        "input": {},
+        "t": 103676,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 5
+      },
+      {
+        "step": 20,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            635,
+            409
+          ]
+        },
+        "t": 108142,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 5
+      },
+      {
+        "step": 20,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 108277,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 6
+      },
+      {
+        "step": 20,
+        "name": "screenshot",
+        "input": {},
+        "t": 110282,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 6
+      },
+      {
+        "step": 21,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            270,
+            439
+          ]
+        },
+        "t": 115327,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 6
+      },
+      {
+        "step": 21,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            270,
+            579
+          ]
+        },
+        "t": 115467,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 6
+      },
+      {
+        "step": 21,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            301,
+            367
+          ]
+        },
+        "t": 115607,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 6
+      },
+      {
+        "step": 21,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 115747,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 6
+      },
+      {
+        "step": 21,
+        "name": "screenshot",
+        "input": {},
+        "t": 116764,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 6
+      },
+      {
+        "step": 22,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            299,
+            444
+          ]
+        },
+        "t": 120616,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 6
+      },
+      {
+        "step": 22,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 120750,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 22,
+        "name": "screenshot",
+        "input": {},
+        "t": 122756,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 23,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            66,
+            777
+          ]
+        },
+        "t": 127749,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 7
+      },
+      {
+        "step": 23,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            869,
+            372
+          ]
+        },
+        "t": 127884,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 7
+      },
+      {
+        "step": 23,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 128027,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 23,
+        "name": "zoom",
+        "input": {
+          "region": [
+            937,
+            280,
+            1226,
+            360
+          ]
+        },
+        "t": 130032,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 24,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            173,
+            777
+          ]
+        },
+        "t": 133370,
+        "counted": true,
+        "classification": "wasted",
+        "taskIndex": 7
+      },
+      {
+        "step": 24,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 133507,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 24,
+        "name": "screenshot",
+        "input": {},
+        "t": 135516,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 25,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            801,
+            445
+          ]
+        },
+        "t": 138464,
+        "counted": true,
+        "classification": "recovery",
+        "taskIndex": 7
+      },
+      {
+        "step": 25,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 138605,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 25,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            173,
+            777
+          ]
+        },
+        "t": 139624,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 7
+      },
+      {
+        "step": 25,
+        "name": "wait",
+        "input": {
+          "duration": 2
+        },
+        "t": 139764,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 25,
+        "name": "screenshot",
+        "input": {},
+        "t": 141771,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 26,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            319,
+            382
+          ]
+        },
+        "t": 144883,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 7
+      },
+      {
+        "step": 26,
+        "name": "wait",
+        "input": {
+          "duration": 1
+        },
+        "t": 145011,
+        "counted": false,
+        "classification": null,
+        "taskIndex": 7
+      },
+      {
+        "step": 26,
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            583,
+            400
+          ]
+        },
+        "t": 146018,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 7
+      },
+      {
+        "step": 26,
+        "name": "key",
+        "input": {
+          "text": "ctrl+End"
+        },
+        "t": 146159,
+        "counted": true,
+        "classification": "neutral",
+        "taskIndex": 7
+      },
+      {
+        "step": 26,
+        "name": "type",
+        "input": {
+          "text": "\n555-0108"
+        },
+        "t": 146299,
+        "counted": true,
+        "classification": "progress",
+        "taskIndex": 7
+      }
+    ]
+  }
+}
